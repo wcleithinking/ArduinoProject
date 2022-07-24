@@ -21,11 +21,13 @@ void setup() {
   display.setTextSize(1);
   display.setTextColor(WHITE);
   display.setCursor(0, 0);
-  display.println("Hello, Person1!");
-  display.setCursor(0, 15);
-  display.println("Hello, Person2!");
-  display.setCursor(0, 25);
-  display.println("Hello, Person3!");
+  display.println("Hello, Person1! Done.");
+  display.setCursor(0, 8);
+  display.println("Hello, Person2! Done.");
+  display.setCursor(0, 16);
+  display.println("Hello, Person3! Done.");
+  display.setCursor(0, 24);
+  display.println("Hello, Person4! Done.");
   display.display(); 
 }
 
