@@ -1,5 +1,7 @@
 # include <Wire.h>
 
+# include <Adafruit_SSD1306.h>
+
 void setup() {
   // put your setup code here, to run once:
 
